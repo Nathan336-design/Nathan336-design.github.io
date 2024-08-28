@@ -1,0 +1,86 @@
+/* Reset some default browser styles */
+body,
+h1,
+p,
+a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply a background color and set the font for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Style the heading */
+h1 {
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+}
+
+/* Style the paragraphs */
+p {
+  margin-bottom: 15px;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+/* Style the links */
+a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  margin: 0 15px;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+/* Style the image */
+img {
+  display: block;
+  margin: 20px auto;
+  border: 5px solid #007bff;
+  border-radius: 10px;
+}
+
+/* Style for the container of content */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.major {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.major .left {
+  border: 1px solid grey;
+  padding: 30px;
+  width: 30%;
+  background-color: #007bff71;
+  box-shadow: 4px 4px 8px grey;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+  font-size: 24px;
+  font-style: italic;
+}
